@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a, h1, p, span {
+    word-wrap: break-word;
+}
+a {
+    text-decoration: none;
+}
+a, h1, html, p, span {
+    font-family: pf_dintext_proregular,'Microsoft Yahei','Hiragino Sans GB',Helvetica,sans-serif;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.clearfloat {
+    zoom: 1;
+}
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+ol, ul {
+    list-style: none;
+}
+
+
+
+
+
+.g-container{
+    display: block;
+}
+.g-header {
+    width: 100%;
+}
+.header {
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+.header-top {
+    position: relative;
+}
+.header-top {
+    width: 1160px;
+    height: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+.header-top .logo {
+    margin: 4px 0 ;
+    width: 300px;
+    height: 31px;
+}
+
+.header-top .logo img{
+    width:118px;
+    height:31px;
+}
+.header-top .logo span{
+    display: inline-block;
+    height: 31px;
+    line-height: 31px;
+}
+.header-links{
+    background: #18376b;
+    position: relative;
+    height: 58px;
+    text-align: left;
+}
+.links-container{
+    width: 100%;
+    height: 58px;
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+}
+.links-scalling{
+    width: 1160px;
+    height: 58px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+    /* background: url(../images/header-bottom.png) 100% 50% no-repeat; */
+}
+.links-scalling .header-title {
+    float: left;
+    margin: 15px 0 0;
+}
+.links-scalling .header-title p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    font-family: pf_dintext_proregular;
+    letter-spacing: 1px;
+}
+.links-scalling .header-follow-us {
+    float: right;
+    margin: 13px 0 0;
+}
+.links-scalling .header-follow-us .js-social-moreShow {
+    background: url(../images/more_2.png) no-repeat;
+    background-size: 32px 32px;
+}
+.links-scalling .header-follow-us .js-social-hide {
+    background: url(../images/hide.png) no-repeat!important;
+    background-size: 32px 32px;
+}
+.links-scalling .header-follow-us .js-social-more {
+    float: right;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.links-scalling .header-follow-us .header-follow-us-img {
+    float: right;
+    width: 132px;
+    height: 32px;
+    position: relative;
+}
+.links-scalling .header-follow-us>p {
+    float: right;
+    text-align: right;
+    line-height: 14px;
+    font-size: 14px;
+    font-family: pf_dintext_proregular;
+    color: #fff;
+    padding: 9px 5px 0 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.links-scalling .header-follow-us-img a {
+    float: left;
+    width: 32px;
+    height: 32px;
+    display: inline;
+    margin: 0 5px;
+}
+
+.links-scalling .header-follow-us .header-follow-us-img a.fb {
+    background: url(../images/fb_2.png) no-repeat;
+    background-size: 32px 32px;
+}
+.links-scalling .header-follow-us .header-follow-us-img a.twitter{
+    background: url(../images/twitter_2.png) no-repeat;
+    background-size: 32px 32px;
+}
+.links-scalling .header-follow-us .header-follow-us-img a.youtube {
+    background: url(../images/youtube_2.png) no-repeat;
+    background-size: 32px 32px;
+}
+.links-scalling .header-follow-us .header-follow-us-img a.ins {
+    background: url(../images/ins_2.png) no-repeat;
+    background-size: 32px 32px;
+}
+.links-scalling .header-follow-us .header-follow-us-img a.google {
+    background: url(../images/google_2.png) no-repeat;
+    background-size: 32px 32px;
+}
+.links-scalling .header-follow-us .header-follow-us-img a.pinterest {
+    background: url(../images/pinterest_2.png) no-repeat;
+    background-size: 32px 32px;
+}
+.links-scalling .header-follow-us .header-follow-us-img a.tumble {
+    background: url(../images/tumble_2.png) no-repeat;
+    background-size: 32px 32px;
+}
+.links-scalling .header-follow-us .header-follow-us-img a.wechat {
+    background: url(../images/wechat_2.png) no-repeat;
+    background-size: 32px 32px;
+}
+.links-scalling .header-follow-us .header-follow-us-img a.wb {
+    background: url(../images/wb_2.png) no-repeat;
+    background-size: 32px 32px;
+}
+.links-scalling .header-follow-us .header-follow-us-img a.miaopai {
+    background: url(../images/miaopai_2.png) no-repeat;
+    background-size: 32px 32px;
+}
+
+
+.header-nav-wrap {
+    background: #dcdcdc;
+    text-align: center;
+}
+.header-nav-wrap .header-nav {
+    width: 1160px;
+    margin: 0 auto;
+    height: 34px;
+}
+.nav-banner {
+    height: 34px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.nav-banner li {
+    display: inline\9;
+    zoom: 1\9;
+}
+.nav-banner li {
+    display: -moz-inline-stack;
+    display: inline-block;
+}
+.nav-banner li a {
+    float: left;
+    display: inline;
+    padding: 0 25px 0 0;
+    height: 32px;
+    line-height: 34px;
+    cursor: pointer;
+    vertical-align: top;
+    letter-spacing: 1px;
+}
+.nav-banner li a span {
+    float: left;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: pf_dintext_proregular;
+    height: 28px;
+    border-bottom: 2px solid #dcdcdc;
+}
+
+/**content**/
+.g-content {
+    margin: 0 auto;
+    width: 1160px;
+}
+.g-content .m-content-top {
+    padding: 40px 0;
+}
+.g-content .m-content-top .m-content-top-first {
+    background: #fff;
+}
+.g-content .m-content-top .m-content-top-first .scrollbaner {
+    width: 810px;
+    height: 456px;
+    float: left;
+}
+.g-content .m-content-top .m-content-top-first .m-content-top-first-description {
+    float: right;
+    display: inline;
+    width: 288px;
+    margin: 0 31px 0 0;
+    height: 456px;
+    overflow: hidden;
+    position: relative;
+}
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+.slick{
+    width: 810px;
+    height: 456px;
+}
+.slick{
+    width: 810px;
+    height: 456px;
+}
+.slick div{
+    width: 810px;
+    height: 456px;
+}
+.slick div img{
+    width: 810px;
+    height: 456px;
+}
+.slick-dots{
+    position: absolute;
+    bottom: 10px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right !important;
+}
+.slick-next{
+    right: 10px !important;
+    display: none !important;
+}
+.slick-prev{
+    left: 10px !important;
+    display: none !important;
+}
+
+.jqplayerContent{
+    width: 288px;
+    height: 198px;
+}
+.m-content-top-first-description .handleVideo{
+    width: 288px;
+    height: 240px;
+}
+.m-content-top-first-description .handleVideo .changeTime{
+    height: 30px;
+    line-height: 30px;
+    background-color: #2152a4;
+    text-align: center
+}
+.changeTitle{
+    height: 210px;
+    width: 100%;
+    overflow: hidden;
+}
+.changeTitle ul{
+    /* height: 210px; */
+    width: 100%;
+    overflow: visible;
+    position: relative;
+}
+.changeTitle ul li {
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 0px;
+    cursor: pointer;
+}
+.changeTitle ul li  div{
+    font-size: 12px;
+    display: inline-block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.changeTitle ul li .left{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    color: #333;
+    border:none;
+    border-right:1px solid #333; 
+}
+.changeTitle ul li .right{
+    height: 30px;
+    width: 168px;
+    position: relative;
+    text-align: center;
+    color: #333;
+    border:none;   
+    text-align: center;
+}
+.active_circle{
+    display: none;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: red;
+    left: -6px;
+    top: 9px;
+}
+.rightActiveVideo{
+    position: absolute;
+    right: 10px;
+}
+.handleActiveVideo{
+    cursor: pointer;
+}
+
+/**  列表顶部 **/
+
+.jqplayerContent ul{
+    width: 288px;
+    height: 168px;
+    overflow: hidden;
+}
+.jqplayerContent ul li{
+    display: none;
+}
+.jqplayerContent ul li.active{
+    display: block;
+}
+.jqplayerContent ul img{
+    width: 288px;
+    height: 168px;
+    overflow: hidden;
+}
+.jqplayerContent .newsMore{
+    height: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+.jqplayerContent .newsMore .left{
+    float: left; 
+}
+.jqplayerContent .newsMore .right{
+    float: right; 
+    text-decoration: underline;
+    color: red;
+}
+.jqplayerContent .newsMore .right:after{
+    content:"";
+    height:0;
+    display: block;
+    clear: both;
+    zoom: 1;
+    visibility: hidden;
+}
+/**修改**/
+.slick-dots li.slick-active button:before{
+    color: yellow !important;
+}
+.slick-dots li button:before{
+    color: #fff !important;
+}
